@@ -1,0 +1,231 @@
+[
+    {
+        "name": "o2system/o2gears",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/circlecreative/o2gears.git",
+            "reference": "0f804aa50d9f0ed7c05009f65f69e967c9b1002d"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/circlecreative/o2gears/zipball/0f804aa50d9f0ed7c05009f65f69e967c9b1002d",
+            "reference": "0f804aa50d9f0ed7c05009f65f69e967c9b1002d",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0"
+        },
+        "time": "2016-03-30 10:42:01",
+        "type": "php-libraries",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "O2System\\Gears\\": "src"
+            },
+            "files": [
+                "src/Gears.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Steeven Andrian Salim",
+                "email": "steevenz@steevenz.com",
+                "homepage": "http://www.steevenz.com",
+                "role": "Founder and Lead Project"
+            },
+            {
+                "name": "Teguh Rianto",
+                "email": "teguh.rianto22@gmail.com",
+                "homepage": "http://teguhrianto22.pusku.com",
+                "role": "Template Designer"
+            },
+            {
+                "name": "Aradea",
+                "email": "aradea.hind@gmail.com",
+                "role": "Wiki Writer"
+            },
+            {
+                "email": "developer@circle-creative.com",
+                "homepage": "http://www.circle-creative.com",
+                "role": "Founder"
+            }
+        ],
+        "description": "PHP Developer Tools Library",
+        "keywords": [
+            "driver",
+            "framework",
+            "libraries",
+            "php",
+            "utilities"
+        ]
+    },
+    {
+        "name": "o2system/o2glob",
+        "version": "v2.0.1",
+        "version_normalized": "2.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/circlecreative/o2glob.git",
+            "reference": "2286daa49366ae845a7ecb24e368f78b309d4a63"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/circlecreative/o2glob/zipball/2286daa49366ae845a7ecb24e368f78b309d4a63",
+            "reference": "2286daa49366ae845a7ecb24e368f78b309d4a63",
+            "shasum": ""
+        },
+        "require": {
+            "o2system/o2gears": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-03-30 13:42:05",
+        "type": "php-libraries",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "O2System\\Glob\\": "src"
+            },
+            "files": [
+                "src/Glob.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Steeven Andrian Salim",
+                "email": "steevenz@steevenz.com",
+                "homepage": "http://www.steevenz.com",
+                "role": "Founder and Lead Project"
+            },
+            {
+                "email": "developer@circle-creative.com",
+                "homepage": "http://www.circle-creative.com",
+                "role": "Founder"
+            }
+        ],
+        "description": "Mini Singleton Core Framework aka Super Global Object",
+        "keywords": [
+            "driver",
+            "framework",
+            "libraries",
+            "php",
+            "singleton"
+        ]
+    },
+    {
+        "name": "o2system/o2curl",
+        "version": "v1.1.1",
+        "version_normalized": "1.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/circlecreative/o2curl.git",
+            "reference": "89b552bfbe9bd84df15d6009d59c19d0b9de2e1c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/circlecreative/o2curl/zipball/89b552bfbe9bd84df15d6009d59c19d0b9de2e1c",
+            "reference": "89b552bfbe9bd84df15d6009d59c19d0b9de2e1c",
+            "shasum": ""
+        },
+        "require": {
+            "o2system/o2glob": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2016-03-30 10:34:31",
+        "type": "php-libraries",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "O2System\\CURL\\": "src"
+            },
+            "files": [
+                "src/CURL.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Steeven Andrian Salim",
+                "email": "steevenz@steevenz.com",
+                "homepage": "http://www.steevenz.com",
+                "role": "Founder and Lead Project"
+            },
+            {
+                "name": "Aradea",
+                "email": "aradea.hind@gmail.com",
+                "role": "Wiki Writer"
+            },
+            {
+                "email": "developer@circle-creative.com",
+                "homepage": "http://www.circle-creative.com",
+                "role": "Founder"
+            }
+        ],
+        "description": "Lightweight HTTP Request Libraries",
+        "keywords": [
+            "database",
+            "driver",
+            "framework",
+            "libraries",
+            "php",
+            "utilities"
+        ]
+    },
+    {
+        "name": "steevenz/rajaongkir",
+        "version": "v1.2.0",
+        "version_normalized": "1.2.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/steevenz/rajaongkir.git",
+            "reference": "47faa6915873f9e223a3313393448a702382d8c9"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/steevenz/rajaongkir/zipball/47faa6915873f9e223a3313393448a702382d8c9",
+            "reference": "47faa6915873f9e223a3313393448a702382d8c9",
+            "shasum": ""
+        },
+        "require": {
+            "o2system/o2curl": "*",
+            "php": ">=5.4.0"
+        },
+        "time": "2015-12-28 21:45:00",
+        "type": "php-class",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/Rajaongkir.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GNU General Public License v3.0 License"
+        ],
+        "authors": [
+            {
+                "name": "Steeve Andrian",
+                "email": "steevenz@steevenz.com",
+                "homepage": "http://www.steevenz.com",
+                "role": "PHP Programmer"
+            }
+        ],
+        "description": "Advanced RajaOngkir API PHP Class",
+        "keywords": [
+            "api",
+            "rajaongkir"
+        ]
+    }
+]

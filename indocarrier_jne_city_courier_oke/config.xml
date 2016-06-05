@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<module>
+	<name>indocarrier_jne_city_courier_oke</name>
+	<displayName><![CDATA[indocarrier_jne_city_courier_oke]]></displayName>
+	<version><![CDATA[1.8.1]]></version>
+	<description><![CDATA[indocarrier, JNE - City Courier (CTCOKE)]]></description>
+	<author><![CDATA[Ryan hs]]></author>
+	<tab><![CDATA[]]></tab>
+	<is_configurable>0</is_configurable>
+	<need_instance>0</need_instance>
+	<limited_countries></limited_countries>
+</module>
